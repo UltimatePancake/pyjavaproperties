@@ -18,6 +18,12 @@ p['new key'] = 'new value'
 p.store(open('test2.properties','w'))
 ```
 
+# About
+
+This is a “fork” of the “python replacement for java.util.Properties” recipe on ASPN: <http://code.activestate.com/recipes/496795/> and uploaded by Anand Balachandran Pillai.
+
+The project is maintained by Jesse Noller <jnoller@gmail.com>, Anand Pilla <abpillai@gmail.com>.
+
 # License
 
 As with all ASPN recipes not otherwise licensed prior to July 15, 2008 on aspn.activestate.com, the original recipe is under PSF License. For more information, see the ASPN terms of service here:
