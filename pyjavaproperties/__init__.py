@@ -1,3 +1,3 @@
-from pyjavaproperties import Properties
+from pyjavaproperties.pyjavaproperties import Properties
 
 name = "pyjavaproperties"
