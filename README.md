@@ -4,6 +4,12 @@ This is a "fork" of https://pypi.org/project/pyjavaproperties/. I haven't locate
 
 As per the pypi project the was hosted here: <http://bitbucket.org/jnoller/pyjavaproperties/>
 
+# Installation
+
+```
+pip install git+https://github.com/UltimatePancake/pyjavaproperties
+```
+
 # Usage
 
 ```py
