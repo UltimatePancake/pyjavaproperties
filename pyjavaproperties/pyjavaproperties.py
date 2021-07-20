@@ -278,7 +278,7 @@ class Properties(object):
         for key,value in self._props.items():
             out.write(''.join((key,'=',value,'\n')))
 
-    def store(self, out, header=""):
+    def store(self, out, header="", timestamp=False):
         """ Write the properties list to the stream 'out' along
         with the optional 'header' """
 
@@ -286,10 +286,12 @@ class Properties(object):
             raise ValueError('Steam should be opened in write mode!')
 
         try:
-            out.write(''.join(('#',header,'\n')))
-            # Write timestamp
-            tstamp = time.strftime('%a %b %d %H:%M:%S %Z %Y', time.localtime())
-            out.write(''.join(('#',tstamp,'\n')))
+            if header != "":
+                out.write(''.join(('# ',header,'\n')))
+            if timestamp:
+                # Write timestamp
+                tstamp = time.strftime('%a %b %d %H:%M:%S %Z %Y', time.localtime())
+                out.write(''.join(('# ',tstamp,'\n')))
             # Write properties from the pristine dictionary
             for prop in self._keyorder:
                 if prop in self._origprops:
