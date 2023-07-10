@@ -2,9 +2,7 @@
 
 # pyjavaproperties
 
-This is a "fork" of https://pypi.org/project/pyjavaproperties/. I haven't located the original source and made some changes so that this would work on py3.
-
-As per the pypi project the was hosted here: <http://bitbucket.org/jnoller/pyjavaproperties/>
+This is a "fork" of https://pypi.org/project/pyjavaproperties/. As per the pypi project the original source code was hosted here: <http://bitbucket.org/jnoller/pyjavaproperties/>
 
 # Installation
 
