@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/travis/UltimatePancake/pyjavaproperties/master.svg?style=for-the-badge)](https://travis-ci.com/github/UltimatePancake/pyjavaproperties)
+![Build status](https://img.shields.io/github/actions/workflow/status/UltimatePancake/pyjavaproperties/python-app.yml?style=flat-square)
 
 # pyjavaproperties
 
